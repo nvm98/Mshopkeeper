@@ -1,0 +1,58 @@
+﻿.panel-page-left {
+    position: absolute;
+    width: 140px;
+    height: 52px;
+    top: 0;
+    left: 0;
+    right: calc(100%-140px);
+    bottom: 0;
+    background-color: #006189;
+    cursor:pointer;
+    
+}
+.panel-page-right
+{
+    position:absolute;
+    
+    width:calc(100%-140px);
+    top:0;
+    left:140px;
+    right:0;
+    bottom:0;
+    height:52px;
+}
+.panel-logo 
+{
+    color: #fff;
+    font-weight: 600;
+    text-align:center;
+    margin-top:13px;
+    margin-bottom:13px;
+}
+.panel-right-wrap-label
+{
+    height:52px;
+    left:0;
+    top:0;
+    width:157px;
+    padding:13px 0;
+}
+.panel-right-label {
+    color: #212121;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 0 0 21px;
+    right: auto;
+    left: 0;
+    top: 18px;
+    margin: 0;
+}
+.panel-right-top-menu 
+{
+    position:absolute;
+    right: auto;
+    top: 0px;
+    margin: 0px;
+    height: 52px;
+    left: 157px;
+}

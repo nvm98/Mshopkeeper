@@ -1,0 +1,79 @@
+﻿.content-dialog-close-text, .content-dialog-delete-text {
+    height: 64px;
+    width: 100%;
+    padding: 10px;
+}
+
+    .content-dialog-close-text > span, .content-dialog-delete-text > span {
+        float: left;
+        padding-left: 10px;
+        width: calc(100% - 44px);
+    }
+
+.icon-question-mark {
+    float: left;
+    height: 44px;
+    width: 44px;
+    background: url('../../Contents/icons/icon-popup.png') -165px -2px;
+}
+
+.content-dialog-close-button{
+    height:calc(100% - 64px);
+    width:100%;
+    border-top:1px solid #d0d0d0;
+}
+.dialog-close-save {
+    width: 75px;
+    height: 32px;
+    color: #fff;
+    background-color: #026b97;
+}
+.dialog-close-no-save {
+    width: 94px;
+    height: 32px;
+    color: #026b97;
+    border: 1px solid #026b97;
+}
+.dialog-close-cancel {
+    width: 75px;
+    height: 32px;
+    color: #026b97;
+
+}
+.btn-dialog-close{
+    float:right;
+    margin-left:8px;
+    font-weight:600;
+    border-radius:3px;
+    padding:7px 0;
+}
+    .btn-dialog-close:hover {
+        cursor: pointer;
+    }
+
+    .btn-dialog-close > span {
+        display: block;
+        float: left;
+    }
+.btn-save-icon, .btn-no-save-icon, .btn-cancel-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+}
+.btn-save-icon {
+    margin-left:12px;
+    background: url('../../Contents/icons/save-white.png') no-repeat 4px 4px #026b97;
+}
+
+.btn-no-save-icon {
+    background: url('../../Contents/icons/not-save.png') no-repeat 3px 1px #fff;
+}
+
+.btn-cancel-icon {
+    background: url('../../Contents/icons/cancel-blue.png') no-repeat 3px 4px #fff;
+}
+.wrap-dialog-close-button {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}

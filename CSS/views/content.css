@@ -1,0 +1,774 @@
+﻿/*css phần toolbar
+Người tạo NVMANH 23/5/2019*/
+.content-toolbar {
+    background-color: #026b97;
+    line-height: 36px;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    min-width: 600px;
+}
+#ui-datepicker-div {
+    z-index: 9999999999999 !important;
+}
+.toolbar-item {
+    background-color: #026b97;
+    line-height: 36px;
+    align-items: center;
+    padding: 0 12px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(50, 140, 160);
+}
+
+    .toolbar-item:hover {
+        background-color: #0088c2;
+        cursor: pointer;
+    }
+
+.toolbar-icon {
+    background-image: url('../../Contents/icons/common-icon.png');
+    background-repeat: no-repeat;
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+    margin: 10px 8px 10px 0;
+    float: left;
+}
+
+.toolbar-icon-add {
+    background-position: -150px -203px;
+}
+
+/*css phần tạo của combo box
+Người tạo NVMANH 23/5/2019*/
+
+.combobox-item {
+    position: absolute;
+    top: 37px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 99;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+
+.item {
+    height:32px;
+    display: block;
+    color: #000;
+    padding: 0px 8px;
+    text-align: left;
+}
+
+    .item:hover {
+        text-decoration: none;
+        background-color: #026b97;
+        color: #fff;
+    }
+
+/*css phân combo box thêm mới của toolbar đầu trang
+    Người tạo NVMANH 23/5/2019*/
+
+.combobox-add {
+    position: relative;
+}
+
+.combobox-add-down, .combobox-after-down, .combobox-before-down, .combobox-print-down {
+    padding-left: 14px;
+    font-size: 10px;
+}
+.combobox-after-down{
+    width:100%;
+    height:100%;
+}
+.combobox-before-down, .combobox-after-down {
+}
+/*định dạng icon trên toolbar
+ Người tạo NVMANH 23/5/2019*/
+.toolbar-icon-duplicate {
+    background-position: -976px -127px;
+}
+
+.toolbar-icon-view {
+    background-position: -1602px -127px;
+}
+
+.toolbar-icon-edit {
+    background-position: -77px -203px;
+}
+
+.toolbar-icon-delete {
+    background-position: -1076px -127px;
+}
+
+.toolbar-icon-refresh {
+    background-position: -876px -127px;
+}
+
+.toolbar-select-add {
+    background-color: #026b97;
+    color: #fff;
+}
+/*định dạng phần panel của trang
+Người tạo NVMANH 23/5/2019*/
+.wrap-content-panel {
+    min-width: 800px;
+    padding: 4px;
+}
+/*phần chọn thời gian trên panel
+Người tạo NVMANH 23/5/2019*/
+.select-date-range {
+    display: flex;
+}
+
+.select-date {
+    display: flex;
+}
+
+.form-date {
+    padding: 5px 4px 4px 10px;
+    border: none;
+    outline: none;
+    width: 84px;
+    border-radius:3px;
+}
+
+.wrap-select-date {
+    display: flex;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    height: 35px;
+    margin-right: 14px;
+}
+
+.icon-calender {
+    background: url('../../Contents/icons/common-icon.png') no-repeat 0px -169px;
+    width: 24px;
+    height: 100%;
+}
+
+.btn-select-term {
+    background-color: #fff;
+    font-size: 13px;
+}
+
+a.dropdown-item {
+    font-size: 13px;
+}
+
+.dropdown-menu {
+    width: auto;
+}
+
+.select-date {
+    min-width: 150px;
+    position: relative;
+}
+
+.date-range {
+    position: relative;
+    height: 100%;
+    float: left;
+}
+
+.date-range-combobox {
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.select-date-range {
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.wrap-select-range {
+    float: left;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    height: 35px;
+    margin-right: 14px;
+    position: relative;
+}
+
+.icon-down {
+    width: 24px;
+    height: 100%;
+    float: left;
+    padding: 10px 8px;
+}
+
+.select-range-item {
+    outline: none;
+    float: left;
+    border: none;
+    width: 85px;
+    padding: 5px 4px 4px 8px;
+    height: 33px;
+    border-radius:3px;
+}
+
+.combobox-range-item {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 999;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+/*Định dạng phần lấy dữ liệu
+Người tạo NVMANH 23/5/2019*/
+.content-panel-getdata {
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.wrap-content-panel-getdata {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #026B97;
+    border-radius: 5px;
+}
+
+.wrap-getdata {
+    height: 100%;
+    width: 100%;
+    padding: 7px;
+    margin: auto;
+}
+
+.icon-getdata {
+    background: url(../../Contents/icons/common-icon.png) no-repeat -599px -127px;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+}
+
+/*Nội dung của bảng thống kê
+Người tạo NVMANH 24/5/2019*/
+.content-table-header {
+    overflow-x:hidden;
+    height: 66px;
+    width: calc(100% - 17px);
+}
+
+.header-column {
+    height: 66px;
+    float: left;
+    background-color: #f0f0f0;
+    border-left: 1px solid #d0d0d0;
+}
+/*nội dung từng hàng của bảng
+Người tạo NVMANH 24/5/2019*/
+.header-column-check, .row-content-check {
+    width: 44px;
+    margin: 0px;
+    border-left:none;
+}
+
+.header-column-date, .row-content-date {
+    width: 154px;
+    margin: 0px;
+}
+
+.header-column-number-voucher, .row-content-number-voucher {
+    width: 150px;
+    margin: 0px;
+}
+
+.header-column-type-voucher, .row-content-type-voucher {
+    width: 250px;
+    margin: 0px;
+}
+
+.header-column-total, .row-content-total {
+    width: 200px;
+    margin: 0px;
+}
+
+.header-column-object, .row-content-object {
+    margin: 0px;
+    width: 150px;
+}
+
+.header-column-reason, .row-content-reason {
+    min-width: 300px;
+    width: calc(100% - 948px);
+    margin: 0px;
+}
+
+.header-column-inner {
+    padding: 7px 10px 6px;
+    text-align: center;
+}
+.format-voucher-number {
+    color: #007abc;
+}
+.format-voucher-number:hover {
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+/*nội dung cột đầu đầu tiên của bảng
+Người tạo NVMANH 24/5/2019*/
+.check {
+    background-image: url("../../Contents/icons/uncheck.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 15px auto;
+}
+
+.check-content-table-main {
+    background-image: url("../../Contents/icons/uncheck.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 0px auto;
+}
+
+.button-check {
+    display: none;
+}
+/*Định dạng phần đầu của bảng
+Người tạo NVMANH 24/5/2019*/
+.title-header-column {
+    color: #212121;
+    font-weight: bold;
+}
+
+.header-select {
+    margin:0 2px;
+}
+
+.header-wrap-control {
+    float: left;
+    height: 33px;
+    width: 34px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+}
+
+.header-control {
+    height: 33px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#d0d0d0;
+}
+
+.header-form-control {
+    width: calc(100% - 34px);
+    height: 100%;
+    padding: 5px 4px 4px 10px;
+    outline:none;
+    border:none;
+}
+
+.header-form-control-date {
+    outline: none;
+    border: none;
+    float: left;
+    width: calc(100% - 60px);
+}
+.icon-date-header{
+    float:left;
+}
+.header-select-date {
+    height: 100%;
+    background-color: #fff;
+}
+
+.box-item {
+    position: absolute;
+    top: 66px;
+    width: 150px;
+    background-color: #fff;
+    z-index: 9999;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+
+.btn-header {
+    text-align: center;
+}
+
+.box-btn-header {
+    text-decoration: none;
+    color: #000;
+}
+
+    .box-btn-header:hover {
+        text-decoration: none;
+        color: #000;
+    }
+
+.wrap-button-combobox {
+    padding: 7px;
+}
+/*loại chứng từ
+Người tạo NVMANH 24/5/2019*/
+.combobox-type-voucher {
+    position: absolute;
+    top: 66px;
+    background-color: #fff;
+    z-index: 9999;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+
+.wrap-select-type-voucher {
+    height: 33px;
+    margin:0 2px;
+    background-color: #fff;
+    border: 1px solid #d0d0d0;
+}
+
+.select-type-voucher-item {
+    width: calc(100% - 24px);
+    left: 0;
+    float: left;
+    height: 31px;
+    border: none;
+    outline: none;
+    padding: 5px 4px 4px 10px;
+}
+
+.icon-down-type-voucher {
+    float: left;
+    width: 24px;
+    height: 33px;
+}
+/*Phần nội dung của bảng
+Người tạo NVMANH 24/5/2019*/
+.row {
+    float: left;
+    height: 35px;
+    padding: 7px 10px 6px;
+    border-style: solid;
+    border-color: #e9e9e9;
+    border-width: 1px 1px 0 0;
+}
+.row-content{
+    height:35px;
+}
+    .row-content:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    .row-content:nth-child(even) {
+        background-color: #f6f6f6;
+    }
+
+    .row-content:nth-child(odd):hover {
+        background-color: #d1dee9;
+    }
+
+    .row-content:nth-child(even):hover {
+        background-color: #d1dee9;
+    }
+
+.content-table-body {
+    height: calc(100% - 253px);
+    min-width: 1248px;
+}
+
+.total-column {
+    min-width:1248px;
+    display: flex;
+    background-color: #e2e2e2;
+}
+
+    .total-column .row {
+        border-color: #ccc;
+    }
+
+.cell-date {
+    text-align: center;
+    width: 100%;
+}
+
+.cell-total-money {
+    text-align: right;
+    width: 100%;
+}
+.content-table-main{
+    overflow:auto;
+    height:calc(100% - 351px);
+}
+/*Hàng tính tổng của bảng
+Người tạo NVMANH 25/5/2019*/
+.content-table-total {
+    width: calc(100% - 17px);
+    height: 32px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+/*Phần phân trang của bảng
+Người tạo NVMANH 26/5/2019*/
+.wrap-content-table-paging{
+    width:100%;
+    height:32px;
+    position:relative;
+}
+.btn-paging {
+    float: left;
+    margin: 3px 2px 3px 0;
+    border-radius: 3px;
+    position: absolute;
+}
+.btn-paging-icon:hover{
+    text-decoration:none;
+}
+.label-paging{
+    float:right;
+}
+.btn-paging-icon {
+    background-image: url('../../Contents/icons/common-icon.png');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(36, 123, 160);
+    display: block;
+    opacity:0.5;
+}
+.icon-backward {
+    background-position: -649px -124px;
+    right: auto;
+    left: 0px;
+    top: 3px;
+    margin: 0px;
+}
+.icon-step-backward {
+    background-position: -700px -124px;
+    right: auto;
+    left: 26px;
+    top: 3px;
+    margin: 0px;
+}
+.icon-step-forward {
+    background-position: -749px -124px;
+    right: auto;
+    left: 205px;
+    top: 3px;
+    margin: 0px;
+}
+.icon-forward {
+    background-position: -798px -124px;
+    right: auto;
+    left: 231px;
+    top: 3px;
+    margin: 0px;
+}
+.icon-refresh {
+    background-position: -849px -124px;
+    right: auto;
+    left: 257px;
+    top: 3px;
+    margin: 0px;
+    opacity:1;
+}
+.btn-paging-label-page {
+    right: auto;
+    left: 52px;
+    top: 4px;
+    margin: 0 0 0 4px;
+}
+.btn-paging-page-number {
+    margin: 0px;
+    width: 50px;
+    right: auto;
+    left: 103px;
+    top: 3px;
+}
+#page-number {
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    text-align: center;
+    width:50px;
+    height:24px;
+}
+.btn-paging-total-page {
+    right: auto;
+    left: 155px;
+    top: 4px;
+    margin: 0 0 0 4px;
+}
+.btn-paging-select {
+    height: 26px;
+    right: auto;
+    left: 285px;
+    top: 3px;
+    margin: 0px;
+    width: 46px;
+}
+.label-paging-number-page {
+    position: absolute;
+    left:auto;
+    right: 0px;
+    top: 8px;
+    margin: 0px;
+}
+.btn-paging-select > select {
+    height: 24px;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+}
+/*Bảng chi tiết ở cuối trang
+Người tạo NVMANH 26/5/2019*/
+.wrap-content-box-detail{
+    height:100%;
+    width:100%;
+}
+
+/*Tiêu đề phần chi tiết cuối trang
+Người tạo NVMANH 26/5/2019*/
+.box-detail-table-header {
+    overflow-x:hidden;
+    height: 32px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.wrap-box-detail-table-header {
+    min-width: 550px;
+}
+.box-detail-header {
+    height: 38px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+#box-detail-title {
+    right: auto;
+    left: 10px;
+    top: 10px;
+    margin: 0px;
+    width: 62px;
+    display: block;
+    height: 38px;
+    text-align: center;
+    padding: 11px 0;
+    border-bottom: 2px solid #026b97;
+}
+    #box-detail-title:hover {
+        text-decoration: none;
+    }
+#box-detail-label {
+    color: #026b97;
+    font-weight: 600;
+    width: 100%;
+}
+/*Bảng phần chi tiết cuối trang
+Người tạo NVMANH 26/5/2019*/
+.box-detail-table{
+    overflow-y:hidden;
+    padding:4px 0 0;
+    height:calc(100% - 38px);
+    width:100%;
+}
+.detail-column-header {
+    border-right: 1px solid #d0d0d0;
+    color: rgba(33,33,33,1);
+    outline: 0;
+    background-color: #f0f0f0 !important;
+    height:32px;
+    float:left;
+    font-weight:600;
+    text-align:center;
+    padding:10px;
+}
+.detail-column-body {
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    color: rgba(33,33,33,1);
+    outline: 0;
+    background-color: #fff;
+    height: 32px;
+    float: left;
+    padding: 10px;
+}
+.detail-column-total {
+    border-right: 1px solid #d0d0d0;
+    color: rgba(33,33,33,1);
+    outline: 0;
+    background-color: #f0f0f0 !important;
+    height: 32px;
+    float: left;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+.detail-column-header-explain, .detail-column-body-explain, .detail-column-total-explain {
+    width: calc(100% - 400px);
+}
+.detail-column-body-explain{
+    text-align:left;
+}
+.detail-column-header-money, .detail-column-body-money, .detail-column-total-money {
+    width: 200px;
+    margin: 0px;
+}
+.detail-column-body-money{
+    text-align:right;
+}
+.detail-column-total-money{
+    text-align:right;
+}
+.detail-column-header-index, .detail-column-body-index, .detail-column-total-index {
+    width:200px;
+}
+.detail-column-body-index{
+    text-align:left;
+}
+.row-content-detail{
+    height:100%;
+    border-top: 1px solid #d0d0d0;
+}
+.wrap-box-detail-table{
+    border-width:1px 0 0 1px;
+    border-style:solid;
+    border-color:#d0d0d0;
+    width:100%;
+    height:100%;
+}
+.box-detail-table-total {
+    overflow-x:hidden;
+    height: 32px;
+}
+.wrap-box-detail-table-total {
+    min-width: 550px;
+}
+.box-detail-table-body {
+    overflow: auto;
+    height: calc(100% - 64px);
+}
+.wrap-box-detail-table-body{
+    min-width:550px;
+}
+.no-title {
+    display: none;
+}
+#iconhelp {
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+input:focus>div{
+    outline:none;
+    border:1px solid #5fa2dd;
+}
